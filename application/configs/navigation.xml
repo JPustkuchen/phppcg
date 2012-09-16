@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<nav></nav>
+	<footernav></footernav>
+	<!-- Beispiel:	
+		<impressum>
+			<label>Impressum</label>
+			<controller>Impressum</controller>
+			<action>index</action>
+		</impressum>
+		<xmlsitemap>
+			<label>Sitemap</label>
+			<controller>Sitemap</controller>
+			<action>index</action>
+		</xmlsitemap>	
+	-->
+</config>

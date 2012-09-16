@@ -1,0 +1,95 @@
+/* Elemente */
+body{
+	background-color:#fff;
+	font-family:verdana,arial,helvetica;
+	font-size:11px;
+}
+
+br.clearLeft{
+	clear:left;	
+	line-height:0;
+	height:0;
+	font-size:1px;
+}
+
+a{
+	color:#000;
+}
+
+a:hover{
+	color:#B80E2E;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color:#B80E2E;	
+	font-family:georgia;
+}
+
+ol,ul{
+	padding-left:20px;	
+}
+
+label {
+	font-weight:bold;	
+}
+
+dd {
+	padding:2px 5px;
+	margin:0;
+}
+/* Elemente ENDE */
+
+#page-outer{
+	width:755px;
+	margin:0 auto;	
+	background-color:transparent;
+}
+
+#page-inner{
+	
+}
+
+#main{
+	padding:10px 10px 0 10px;
+	color:#000;
+	border-bottom:3px solid #b80e2e;
+	position:relative;
+}
+
+#content{
+	width:535px;	
+	float:left;
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	min-height:410px;
+}
+
+#content-inner{
+	padding:10px 8px 0 15px;	
+}
+
+#footer{
+	clear:left;	
+}
+
+#footer-menu ul{
+	text-align:right;
+}
+
+#footer-menu ul li{
+	list-style:none;	
+	display:inline;
+}
+
+#footer-menu ul li a{
+	color:#000;	
+}
+
+.errors {
+  background-color: rgb(244, 225, 225); border: 1px solid rgb(204, 0, 0);
+  padding: 0.2em; color: rgb(204, 0, 0);
+}
+
+ul.errors, ul.errors li {
+	list-style-type:none;
+}

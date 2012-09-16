@@ -1,0 +1,13 @@
+<div id="classGenerator">
+	<div class="form">
+		<?php echo $this->form ?>
+	</div>
+	<?php if(!empty($this->resultCode)){ ?>
+		<div style="border:1px solid #000000; padding:10px;" class="resultBox">
+			<form name="resultForm">
+				<button onClick="javascript:this.form.result.focus(); this.form.result.select(); return false;" style="float:right;">Mark all</button>
+				<textarea style="width:100%; height:580px;" id="result"><?php echo $this->resultCode ?></textarea>
+			</form>
+		</div>
+	<?php } ?>
+</div>

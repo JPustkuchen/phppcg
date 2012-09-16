@@ -1,0 +1,16 @@
+p, ul, ol, li, span, div, a, strong, em, br, body, html,
+table, tr, td, th, thead, tbody, img, h1, h2, h3, h4, h5, h6{
+	margin:0;
+	padding:0;	
+	border:0;
+}
+
+p{
+	padding:5px;
+	margin:5px;
+}
+
+ul, ol, table{
+	padding:10px;
+}
+

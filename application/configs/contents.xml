@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Enthaelt Inhalte der Seiten -->
+<config xmlns:zf="http://framework.zend.com/xml/zend-config-xml/1.0/">
+	<site>
+		<content>
+			<!-- Container fuer Seiteninhalte -->	
+		</content>
+		<blocks>
+			<!-- Container fuer Blockinhalte -->
+			<default>
+				<!-- Standard- Blockinhalte -->
+				<sidebarRight>
+					<!-- Block rechte Seitenleiste -->
+					<anschrift>
+						<title>Box1</title>
+					</anschrift>
+					<printGreen>
+						<title>Box2</title>
+					</printGreen>
+					<fuerSie>
+						<title>Box3</title>
+					</fuerSie>
+				</sidebarRight>
+			</default>
+		</blocks>
+	</site>
+</config>

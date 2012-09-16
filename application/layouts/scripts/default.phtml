@@ -1,0 +1,73 @@
+<?php echo('<?xml version="1.0" encoding="UTF-8" ?>'); ?>
+<?php echo $this->doctype() ?>
+<html lang="<?php echo $this->siteConfig['meta']['language'] ?>" xmlns="<?php echo $this->siteConfig['xmlns'] ?>" xml:lang="<?php echo $this->siteConfig['meta']['language'] ?>">
+<head>		
+	<?php 
+	//TODO - Besser machen!
+		if(!empty($this->layout()->title)){
+			$this->headTitle($this->layout()->title);
+		}
+		echo $this->headTitle() 
+	?>
+	
+	<!-- Metadaten -->
+	<?php echo $this->headMeta() ?>
+	<!-- Metadaten ENDE -->	
+
+	<!-- Stylesheets -->
+	<?php echo $this->headLink() ?>
+	<!-- Stylesheets ENDE -->
+	
+	<!-- Styles etc.  -->
+	<?php echo $this->headStyle() ?>
+	<!-- Styles ENDE -->
+	
+	<!-- JavaScript -->
+	<?php 
+		echo $this->headScript();
+		if(!empty($this->siteConfig['plugins']['jquery']['enabled'])){
+			echo $this->jQuery();
+		}	
+	?>
+	<!-- JavaScript ENDE -->	
+</head>
+<body>
+	<div id="page-outer">
+		<div id="page-inner">
+			<div id="header">
+				<?php echo $this->partial('_header.phtml'); ?>						
+			</div>
+			<div id="main">
+				<div id="header-special-image">&nbsp;</div>
+				<div id="content">
+					<?php if(!empty($this->layout()->title)){ ?>
+						<h1 id="title"><?php echo $this->escape($this->layout()->title); ?></h1>
+					<?php } ?>
+					
+					<?php if(!empty($this->layout()->messages)){ ?>
+					<div id="messages <?php echo $this->layout()->messages->getState(); ?>">
+						<ul>
+							<?php echo $this->partialLoop('_messages.phtml', $this->layout()->messages) ?>
+						</ul>
+					</div>
+					<?php } ?>
+					<div id="content-inner">
+						<?php echo $this->layout()->content; ?>
+					</div>						
+				</div>
+				<div id="footer">
+					<div id="footer-inner">
+						<?php echo $this->partial('_footer.phtml'); ?>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<div id="closure">
+			<?php echo $this->layout()->closure; ?>
+		</div>
+	</div>	
+	<!-- Javascript -->
+	<?php echo $this->inlineScript(); ?>
+	<!-- Javascript ENDE -->
+</body>
+</html>

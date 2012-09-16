@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<projectProfile>
+  <projectDirectory>
+    <projectProfileFile/>
+    <applicationDirectory>
+      <apisDirectory enabled="false"/>
+      <configsDirectory>
+        <applicationConfigFile type="ini"/>
+      </configsDirectory>
+      <controllersDirectory>
+        <controllerFile controllerName="index">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="error"/>
+        <controllerFile controllerName="Produkte">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="Referenzen">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="Impressum">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="Kontakt">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="impressum">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="produkte">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="kontakt">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="referenzen">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="sitemap">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="produkte_digitaldruck">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="produkte-digitaldruck">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="produkteDigitaldruck">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+      </controllersDirectory>
+      <layoutsDirectory enabled="false"/>
+      <modelsDirectory/>
+      <modulesDirectory enabled="false"/>
+      <viewsDirectory>
+        <viewScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="index">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="error">
+            <viewScriptFile forActionName="error"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Produkte">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Referenzen">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Impressum">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Kontakt">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="impressum">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="produkte">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="kontakt">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="referenzen">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="sitemap">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="produkte_digitaldruck">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="produkte-digitaldruck">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="produkteDigitaldruck">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+        </viewScriptsDirectory>
+        <viewHelpersDirectory/>
+        <viewFiltersDirectory enabled="false"/>
+      </viewsDirectory>
+      <bootstrapFile/>
+    </applicationDirectory>
+    <dataDirectory enabled="false">
+      <cacheDirectory enabled="false"/>
+      <searchIndexesDirectory enabled="false"/>
+      <localesDirectory enabled="false"/>
+      <logsDirectory enabled="false"/>
+      <sessionsDirectory enabled="false"/>
+      <uploadsDirectory enabled="false"/>
+    </dataDirectory>
+    <libraryDirectory>
+      <zfStandardLibraryDirectory enabled="false"/>
+    </libraryDirectory>
+    <publicDirectory>
+      <publicStylesheetsDirectory enabled="false"/>
+      <publicScriptsDirectory enabled="false"/>
+      <publicImagesDirectory enabled="false"/>
+      <publicIndexFile/>
+      <htaccessFile/>
+    </publicDirectory>
+    <projectProvidersDirectory enabled="false"/>
+    <temporaryDirectory enabled="false"/>
+    <testsDirectory>
+      <testPHPUnitConfigFile/>
+      <testApplicationDirectory>
+        <testApplicationBootstrapFile/>
+        <testApplicationControllerDirectory>
+          <testApplicationControllerFile/>
+          <testApplicationControllerFile/>
+          <testApplicationControllerFile/>
+          <testApplicationControllerFile/>
+          <testApplicationControllerFile/>
+          <testApplicationControllerFile/>
+          <testApplicationControllerFile/>
+          <testApplicationControllerFile/>
+          <testApplicationControllerFile/>
+          <testApplicationControllerFile/>
+          <testApplicationControllerFile/>
+          <testApplicationControllerFile/>
+        </testApplicationControllerDirectory>
+      </testApplicationDirectory>
+      <testLibraryDirectory>
+        <testLibraryBootstrapFile/>
+      </testLibraryDirectory>
+    </testsDirectory>
+  </projectDirectory>
+</projectProfile>
